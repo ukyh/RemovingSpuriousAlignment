@@ -1,7 +1,7 @@
 
 # Removing Word-Level Spurious Alignment between Images and Pseudo-Captions in Unsupervised Image Captioning
 
-The code of our work, **Removing Word-Level Spurious Alignment between Images and Pseudo-Captions in Unsupervised Image Captionin** (EACL 2021). We proposed a simple and effective method to remove word-level spurious alignment between images and pseudo-captions for the better performance in unsupervised image captioning. Please refer to our paper for more details.  
+The code of our work, **Removing Word-Level Spurious Alignment between Images and Pseudo-Captions in Unsupervised Image Captioning** (EACL 2021). We proposed a simple and effective method to remove word-level spurious alignment between images and pseudo-captions for the better performance in unsupervised image captioning. Please refer to our paper for more details.  
 
 [arXiv] https://arxiv.org/abs/2104.13872  
 [ACL Anthology] https://www.aclweb.org/anthology/2021.eacl-main.323/
