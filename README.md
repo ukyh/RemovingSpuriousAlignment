@@ -1,12 +1,15 @@
 
 # Removing Word-Level Spurious Alignment between Images and Pseudo-Captions in Unsupervised Image Captioning
 
-The code of our work, [Removing Word-Level Spurious Alignment between Images and Pseudo-Captions in Unsupervised Image Captionin](https://www.aclweb.org/anthology/2021.eacl-main.323/) (EACL 2021). We proposed a simple and effective method to remove word-level spurious alignment between images and pseudo-captions for the better performance in unsupervised image captioning. Please refer to our paper for more details.  
+The code of our work, **Removing Word-Level Spurious Alignment between Images and Pseudo-Captions in Unsupervised Image Captionin** (EACL 2021). We proposed a simple and effective method to remove word-level spurious alignment between images and pseudo-captions for the better performance in unsupervised image captioning. Please refer to our paper for more details.  
+
+[arXiv] https://arxiv.org/abs/2104.13872  
+[ACL Anthology] https://www.aclweb.org/anthology/2021.eacl-main.323/
 
 
 ## Citation
 ```
-@inproceedings{honda2021removing,
+@inproceedings{honda-etal-2021-removing,
     title = "Removing Word-Level Spurious Alignment between Images and Pseudo-Captions in Unsupervised Image Captioning",
     author = "Honda, Ukyo  and
       Ushiku, Yoshitaka  and
@@ -115,8 +118,8 @@ python -u main_selfcap.py --corpus ss --auto_setting --max_pos_dist 4 --min_inte
 
 ## Notes
 ### Modified pseudo-caption preprocessing
-We corrected our pseudo-caption preprocessing to retain the sentences where `1 < n <= 4` words exist between a pair of detected objects (not `0 < n <= 4` as described in our paper).
-We excluded the `n = 1` sentences as those sentences tended to ungramatically omit articles (_e.g._, a **plant** <u>on **table**</u>). The results in our paper were obtained by the `1 < n <= 4` preprocessing.
+We modified our pseudo-caption preprocessing to retain the sentences where `1 < n <= 4` words exist between a pair of detected objects, not `0 < n <= 4` as described in our EACL paper (description is corrected in the arXiv version).
+We excluded the `n = 1` sentences as those sentences tended to ungramatically omit articles (_e.g._, **plant** on **table**). All results in our paper were obtained with the `1 < n <= 4` preprocessing.
 
 ### Incomplete seed fixing
 We found that our seed fixing option could not completely control the learning of a model.
