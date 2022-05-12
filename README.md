@@ -51,7 +51,7 @@ Download [full_data.tar.gz](https://drive.google.com/file/d/1e-JmBn62qVY9MDRx7ni
 
 
 ## Make Dataset (Optional: The files can be downloaded as described above)
-1. Download [Shutterstock corpus (sentences.pkl)](https://rochester.box.com/s/f7g31ufkp19vd6l3y9jpzf7gnjcxqxpd) and [Google's Conceptual Captions (Train-GCC-training.tsv)](https://ai.google.com/research/ConceptualCaptions/), and put them into `data` directory.
+1. Download [Shutterstock corpus (sentences.pkl)](https://github.com/fengyang0317/unsupervised_captioning) and [Google's Conceptual Captions (Train-GCC-training.tsv)](https://ai.google.com/research/ConceptualCaptions/), and put them into `data` directory.
 
 2. Follow the `Preprocess` instruction of [unsupervised_captioning_fast](https://github.com/ukyh/unsupervised_captioning_fast.git) to make the following items and copy them to `data` directory.
 ```
